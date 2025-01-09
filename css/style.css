@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    text-align: center;
+
+}
+
+aside {
+    background-color: #b8b8b8;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    padding: 20px;
+}
+
+main {
+    margin-left: 20%;
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+.main-layout{
+    top: 10%;
+}
+
+#stick1,#stick2,#stick3{
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+    width: 50px;
+    height:100px;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#stick1{
+    background-color: rgb(158, 83, 83)  /*!important;สำคัญใช้ important*/
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 0px rgb(81, 81, 81);
+}
+
+#stick2{
+    background-color: rgb(134, 168, 120);
+    color: rgb(255, 255, 255); 
+    box-shadow: 3px 3px 0px rgb(81, 81, 81);
+}
+
+#stick3{
+    background-color: rgb(174, 164, 118);
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 0px rgb(81, 81, 81);
+}
+
+
+#Menu{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(47, 151, 56);
+    border-radius: 5px
+    
+}
+
+
