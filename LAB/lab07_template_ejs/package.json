@@ -10,5 +10,12 @@
   "scripts": {
     "start": "nodemon index_simple.js",
     "debug": "nodemon -e static,.js,.ejs index_mysql_env.js"
-  }
+  },
+  "name": "lab07_template_ejs",
+  "version": "1.0.0",
+  "main": "db.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
